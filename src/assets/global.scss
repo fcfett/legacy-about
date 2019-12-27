@@ -1,0 +1,63 @@
+body {
+  @extend .font-sans;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#svg-defs {
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+.font {
+  &-sans {
+    font-family: 'Work Sans', sans-serif;
+    strong {
+      font-weight: 600;
+    }
+  }
+  &-serif {
+    font-family: 'Roboto Slab', serif;
+    strong {
+      font-weight: 700;
+    }
+  }
+}
+
+h1 {
+  @extend .font-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+
+  &.white {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    @extend .font-serif;
+  }
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

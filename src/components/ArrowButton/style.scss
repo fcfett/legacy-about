@@ -1,0 +1,52 @@
+.arrow {
+  background: none;
+  background: #e6c319;
+  border: none;
+  cursor: pointer;
+  left: 50%;
+  opacity: 0.2;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 2;
+
+  &,
+  .icon {
+    transition: 0.25s ease-out;
+    transition-property: opacity, transition;
+  }
+
+  @keyframes bounce {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(25%);
+    }
+  }
+
+  &.prev {
+    top: 0;
+    transform: translateX(-50%) rotate(180deg);
+    .icon {
+      animation: bounce infinite 0.75s;
+    }
+  }
+
+  &.next {
+    bottom: 0;
+    .icon {
+      animation: bounce infinite 0.75s;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    .icon {
+      animation: none;
+    }
+  }
+}
