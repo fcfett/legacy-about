@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.scss';
 
 import PageSlider from '../PageSlider';
 import Header from '../../pages/Header';
@@ -13,7 +12,7 @@ export default () => {
   return (
     <div id="app">
       <SvgDefs />
-      <PageSlider>
+      <PageSlider title="about/fcfett">
         <Header />
         <Experience />
         <Quote />

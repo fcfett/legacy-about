@@ -2,10 +2,13 @@ import React from 'react';
 import './style.scss';
 
 import FramedImage from '../../components/FramedImage';
+
 import ntconsult from '../../assets/images/ntconsult.jpg';
 import stefanini from '../../assets/images/stefanini.jpg';
+import hypeflame from '../../assets/images/hypeflame.jpg';
 import grupols from '../../assets/images/grupols.jpg';
 import vg8 from '../../assets/images/vg8.jpg';
+import adp from '../../assets/images/adp.jpg';
 
 export default () => (
   <div id="page-3" className="page">
@@ -37,6 +40,20 @@ export default () => (
           <FramedImage title="VG8" src={vg8} />
           <strong>VG8</strong>
           <small>2019/05</small>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/adpbrazillabs/" target="_blank" rel="noopener noreferrer">
+          <FramedImage title="VG8" src={adp} />
+          <strong>ADP Brazil Labs</strong>
+          <small>2020/03</small>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/hypeflame/" target="_blank" rel="noopener noreferrer">
+          <FramedImage title="VG8" src={hypeflame} />
+          <strong>HypeFlame</strong>
+          <small>2021/01</small>
         </a>
       </li>
     </ul>

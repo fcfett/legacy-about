@@ -1,11 +1,9 @@
 #page-2 {
-  align-content: center;
   align-items: center;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   position: relative;
   justify-content: center;
-  margin: 0 auto;
 
   .transition {
     transition-property: all;
@@ -16,8 +14,8 @@
   h1,
   h2 {
     margin: 0;
-    flex: 1 0 100%;
-    max-width: 50vw;
+    width: 920px;
+    max-width: 100%;
     font-weight: unset;
   }
 
@@ -25,13 +23,13 @@
     display: flex;
     font-weight: 300;
     justify-content: space-around;
-    margin: 0;
     text-transform: uppercase;
     &#stack {
-      max-width: 88%;
-      font-size: 3.5vmax;
+      padding: 0 1.6em;
+      font-size: 5vmin;
+
       span {
-        min-width: 14px;
+        min-width: 0.4em;
       }
     }
   }
@@ -64,8 +62,9 @@
   }
 
   #tg-name-input-label {
+    cursor: pointer;
     display: flex;
-    font-size: 8vmax;
+    font-size: 14vmin;
     position: relative;
     user-select: none;
 
