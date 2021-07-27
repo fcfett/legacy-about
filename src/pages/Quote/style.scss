@@ -58,11 +58,12 @@
 
         &.cap,
         &.glasses {
+          opacity: 0;
           position: absolute;
-          transition: 3s ease-out;
-          transition-property: opacity, transform;
+          transition-duration: 0.25s, 2s;
           transform-origin: center center;
-          perspective: 1000px;
+          transition-property: opacity, transform;
+          transition-timing-function: ease-out;
         }
 
         &.cap {
@@ -84,6 +85,12 @@
 }
 
 .slide.current #page-4 {
+  .cap,
+  .glasses {
+    opacity: 1;
+    transition-duration: 1s, 3s;
+  }
+
   .cap {
     transition-delay: 0.5s;
     transform: translate(0) rotate(3deg);
