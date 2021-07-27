@@ -11,7 +11,7 @@ export default () => (
       <q>
         Senioridade, acima de tudo, é uma questão de postura.
         <br />
-        De nada vale um currículo todo enfeitadinho se na hora do pega tu não assume teus BO.
+        De nada vale um currículo todo enfeitadinho se, na hora do pega, tu não assume teus BO.
       </q>
       <strong>Felipe Fett</strong>
     </article>

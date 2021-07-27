@@ -31,6 +31,13 @@
       &:not(.current) {
         transform: translateY(-100%);
         transition-delay: 0.25s;
+        animation: remove-focus 0.25s forwards 0.25s;
+
+        @keyframes remove-focus {
+          to {
+            visibility: hidden;
+          }
+        }
       }
 
       &.current {
