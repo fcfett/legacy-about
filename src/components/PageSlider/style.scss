@@ -210,10 +210,6 @@
 
             &:nth-of-type(2) {
               transform: rotate(3deg) scale(0.9);
-              &.fun {
-                transform: rotate(3deg) scale(1.2);
-                z-index: 2;
-              }
             }
 
             &:nth-of-type(3) {

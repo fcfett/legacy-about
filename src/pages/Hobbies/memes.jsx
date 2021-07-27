@@ -12,22 +12,22 @@ import santana from '../../assets/images/santana.gif';
 export default () => (
   <ul className="pictures">
     <li>
-      <FramedImage className="default " src={eita}></FramedImage>
+      <FramedImage className="default " src={eita} />
     </li>
     <li>
-      <FramedImage className="default " src={numsei}></FramedImage>
+      <FramedImage className="default " src={numsei} />
     </li>
     <li>
-      <FramedImage className="default " src={cafe}></FramedImage>
+      <FramedImage className="default " src={cafe} />
     </li>
     <li>
-      <FramedImage className="default " src={lasier}></FramedImage>
+      <FramedImage className="default " src={lasier} />
     </li>
     <li className="wide">
-      <FramedImage className="default " src={fogo}></FramedImage>
+      <FramedImage className="default " src={fogo} />
     </li>
     <li>
-      <FramedImage className="default " src={santana}></FramedImage>
+      <FramedImage className="default " src={santana} />
     </li>
   </ul>
 );

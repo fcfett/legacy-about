@@ -26,13 +26,13 @@ export default () => {
       <ul>
         <li>
           <button onClick={() => openModal(music)}>
-            <span>Música</span>
+            <span>Music</span>
             <Emoji content=" 🎙" label="microphone" />
           </button>
         </li>
         <li>
           <button onClick={() => openModal(beer)}>
-            <span>Cerveja</span>
+            <span>Beer</span>
             <Emoji content=" 🍻" label="beer" />
           </button>
         </li>
@@ -44,7 +44,7 @@ export default () => {
         </li>
         <li>
           <button onClick={() => openModal(love)}>
-            <span>Curtir a Família</span>
+            <span>Chill with the family</span>
             <Emoji content=" 🖤" label="heart" />
           </button>
         </li>

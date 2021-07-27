@@ -20,4 +20,19 @@
     font-weight: 400;
     color: #157fd4;
   }
+
+  .wide-forwards {
+    transform: rotate(3deg) scale(1.2);
+    z-index: 2;
+  }
+
+  .backwards {
+    transform: rotate(-4deg);
+    z-index: 2;
+  }
+
+  .wide-backwards {
+    transform: rotate(-3deg) scale(1.15);
+    z-index: 2;
+  }
 }
