@@ -1,12 +1,23 @@
 #social {
   ul {
     display: flex;
+    flex-wrap: wrap;
     margin: auto 0;
     align-items: center;
     justify-content: space-around;
     margin-bottom: auto;
+
     li {
+      width: 25vmin;
       text-align: center;
+
+      h2 {
+        font-size: 5vmin;
+      }
+
+      svg {
+        max-width: 100%;
+      }
     }
   }
 }
