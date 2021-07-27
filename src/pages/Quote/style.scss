@@ -33,7 +33,10 @@
     }
 
     @media (max-width: 1024px) {
-      font-size: 4vmax;
+      &,
+      strong {
+        font-size: 4vmax;
+      }
     }
   }
 

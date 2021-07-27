@@ -10,7 +10,7 @@ import love from './love';
 
 const INITIAL_STATE = {
   showModal: false,
-  content: null
+  content: null,
 };
 
 export default () => {
@@ -44,7 +44,7 @@ export default () => {
         </li>
         <li>
           <button onClick={() => openModal(love)}>
-            <span>Curtir com a Cremosa</span>
+            <span>Curtir a Família</span>
             <Emoji content=" 🖤" label="heart" />
           </button>
         </li>
