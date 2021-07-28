@@ -7,7 +7,7 @@ export default ({ className, src, alt, caption }) => {
   return (
     <figure className={`image ${className} ${loaded ? 'visible' : ''}`}>
       <img src={src} alt={caption || alt} onLoad={() => setLoaded(true)} />
-      {caption && <figcaption>{caption}</figcaption>}
+      {caption ? <figcaption>{caption}</figcaption> : null}
     </figure>
   );
 };
