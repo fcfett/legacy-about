@@ -1,4 +1,8 @@
 .image {
+  &:not(.visible) {
+    opacity: 0;
+  }
+
   &:not(.default) {
     border-radius: 100px;
     width: 25vmin;
