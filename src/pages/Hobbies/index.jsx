@@ -27,26 +27,26 @@ export default () => {
       <ul>
         <li>
           <button onClick={() => openModal(music)}>
-            <span>Music</span>
-            <Emoji content=" 🎙" label="microphone" />
+            <span>Music </span>
+            <Emoji content="🎙" label="microphone" />
           </button>
         </li>
         <li>
           <button onClick={() => openModal(beer)}>
-            <span>Beer</span>
-            <Emoji content=" 🍻" label="beer" />
+            <span>Beer </span>
+            <Emoji content="🍻" label="beer" />
           </button>
         </li>
         <li>
           <button onClick={() => openModal(memes)}>
-            <span>Memes</span>
-            <Emoji content=" 💩" label="poop" />
+            <span>Memes </span>
+            <Emoji content="💩" label="poop" />
           </button>
         </li>
         <li>
           <button onClick={() => openModal(love)}>
-            <span>Chill with the family</span>
-            <Emoji content=" 🖤" label="heart" />
+            <span>Family Time </span>
+            <Emoji content="🖤" label="heart" />
           </button>
         </li>
       </ul>
