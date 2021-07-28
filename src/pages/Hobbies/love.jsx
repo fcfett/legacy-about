@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 
 import FramedImage from '../../components/FramedImage';
+
 import family from '../../assets/images/family.jpg';
 import food from '../../assets/images/food.jpg';
 import us from '../../assets/images/us.jpg';

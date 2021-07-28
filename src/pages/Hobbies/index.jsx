@@ -3,6 +3,7 @@ import './style.scss';
 
 import Modal from '../../components/Modal';
 import Emoji from '../../components/Emoji';
+
 import music from './music';
 import beer from './beer';
 import memes from './memes';

@@ -32,7 +32,7 @@
   }
 
   .wide-backwards {
-    transform: rotate(-3deg) scale(1.15);
+    transform: rotate(-3deg) scale(1.15) translateY(-10px);
     z-index: 2;
   }
 }
