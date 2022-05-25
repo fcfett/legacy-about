@@ -16,7 +16,7 @@ const textToCharSpan = (text) => {
 const Header = () => {
   const lastName = 'Fett';
   const firstName = 'Felipe';
-  const stack = '{ Full Stack Developer }';
+  const stack = '{ Full Stack Software Engineer }';
 
   const toggleId = 'tg-name-input';
 
@@ -46,4 +46,4 @@ const Header = () => {
   );
 };
 
-export default Header
+export default Header;

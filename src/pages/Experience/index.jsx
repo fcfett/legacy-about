@@ -9,6 +9,7 @@ import hypeflame from '../../assets/images/hypeflame.jpg';
 import grupols from '../../assets/images/grupols.jpg';
 import vg8 from '../../assets/images/vg8.jpg';
 import adp from '../../assets/images/adp.jpg';
+import lol from '../../assets/images/lol.jpg';
 
 const Experience = () => (
   <div id="page-3" className="page">
@@ -44,20 +45,27 @@ const Experience = () => (
       </li>
       <li>
         <a href="https://www.linkedin.com/company/adpbrazillabs/" target="_blank" rel="noopener noreferrer">
-          <FramedImage title="VG8" src={adp} />
+          <FramedImage title="ADP" src={adp} />
           <strong>ADP Brazil Labs</strong>
           <small>2020/03</small>
         </a>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/hypeflame/" target="_blank" rel="noopener noreferrer">
-          <FramedImage title="VG8" src={hypeflame} />
+          <FramedImage title="HypeFlame" src={hypeflame} />
           <strong>HypeFlame</strong>
           <small>2021/01</small>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/legends-of-learning" target="_blank" rel="noopener noreferrer">
+          <FramedImage title="Legends Of Learning" src={lol} />
+          <strong>Legends Of Learning</strong>
+          <small>2022/01</small>
         </a>
       </li>
     </ul>
   </div>
 );
 
-export default Experience
+export default Experience;

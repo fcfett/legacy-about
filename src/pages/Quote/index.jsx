@@ -8,10 +8,15 @@ import glasses from '../../assets/images/glasses.png';
 const Quote = () => (
   <div id="page-4" className="page font-serif">
     <article>
-      <q>
+      {/* <q>
         Senioridade, acima de tudo, é uma questão de postura.
         <br />
         De nada vale um currículo todo enfeitadinho se, na hora do pega, tu não assume teus BO.
+      </q> */}
+      <q>
+        Seniority, above all, is a matter of posture.
+        <br />
+        It's useless to have a fancy résumé if, when everything is falling apart, you can't handle your mess.
       </q>
       <strong>Felipe Fett</strong>
     </article>
@@ -25,4 +30,4 @@ const Quote = () => (
   </div>
 );
 
-export default Quote
+export default Quote;
