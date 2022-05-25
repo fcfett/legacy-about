@@ -10,7 +10,7 @@ const INITIAL_STATE = {
   folding: false,
 };
 
-export default ({ title, children }) => {
+const PageSlider = ({ title, children }) => {
   const [state, setState] = useState(INITIAL_STATE);
   const updateState = (payload) => setState((state) => ({ ...state, ...payload }));
 
@@ -93,3 +93,5 @@ export default ({ title, children }) => {
     </div>
   );
 };
+
+export default PageSlider

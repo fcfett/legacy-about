@@ -10,7 +10,7 @@ import son from '../../assets/images/son.jpg';
 import fun from '../../assets/images/fun.jpg';
 import movies from '../../assets/images/movies.jpg';
 
-export default () => (
+const Love = () => (
   <ul className="pictures">
     <li>
       <FramedImage className="default " src={movies} />
@@ -32,3 +32,5 @@ export default () => (
     </li>
   </ul>
 );
+
+export default Love

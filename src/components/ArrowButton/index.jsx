@@ -2,7 +2,7 @@ import React from 'react';
 import './style.scss';
 import Icon from '../Icon';
 
-export default ({ className, isVisible = true, ...props }) => {
+const ArrowButton = ({ className, isVisible = true, ...props }) => {
   return (
     isVisible && (
       <button className={`arrow ${className}`} {...props}>
@@ -11,3 +11,6 @@ export default ({ className, isVisible = true, ...props }) => {
     )
   );
 };
+
+
+export default ArrowButton

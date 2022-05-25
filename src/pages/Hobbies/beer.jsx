@@ -8,7 +8,7 @@ import bqc from '../../assets/images/bqc.jpg';
 import craft from '../../assets/images/craft.jpg';
 import morebeer from '../../assets/images/morebeer.jpg';
 
-export default () => (
+const Beer = () => (
   <ul className="pictures">
     <li>
       <FramedImage className="default" src={craft} />
@@ -32,3 +32,5 @@ export default () => (
     </li>
   </ul>
 );
+
+export default Beer

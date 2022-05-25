@@ -8,7 +8,7 @@ import shows from '../../assets/images/shows.jpg';
 import alldaylong from '../../assets/images/alldaylong.jpg';
 import playtogether from '../../assets/images/playtogether.jpg';
 
-export default () => (
+const Music = () => (
   <ul className="pictures">
     <li>
       <FramedImage className="default" src={alldaylong} caption="All Day Long..." />
@@ -42,3 +42,5 @@ export default () => (
     </li>
   </ul>
 );
+
+export default Music

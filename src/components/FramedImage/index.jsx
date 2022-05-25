@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.scss';
 
-export default ({ className, src, alt, caption }) => {
+const FramedImage = ({ className, src, alt, caption }) => {
   const [loaded, setLoaded] = useState(false);
 
   return (
@@ -11,3 +11,5 @@ export default ({ className, src, alt, caption }) => {
     </figure>
   );
 };
+
+export default FramedImage

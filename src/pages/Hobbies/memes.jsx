@@ -9,7 +9,7 @@ import fogo from '../../assets/images/fogo.gif';
 import numsei from '../../assets/images/numsei.jpg';
 import santana from '../../assets/images/santana.gif';
 
-export default () => (
+const Memes = () => (
   <ul className="pictures">
     <li>
       <FramedImage className="default " src={eita} />
@@ -31,3 +31,5 @@ export default () => (
     </li>
   </ul>
 );
+
+export default Memes

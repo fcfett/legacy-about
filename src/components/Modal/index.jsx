@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './style.scss';
 
-export default ({ closeHandler, visible, content: Content }) => {
+const Modal = ({ closeHandler, visible, content: Content }) => {
   const [state, setState] = useState({ active: false });
   const toggleActive = (active) => setState((state) => ({ ...state, active }));
 
@@ -18,3 +18,5 @@ export default ({ closeHandler, visible, content: Content }) => {
     )
   );
 };
+
+export default Modal

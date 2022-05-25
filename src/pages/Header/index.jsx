@@ -13,7 +13,7 @@ const textToCharSpan = (text) => {
   return result;
 };
 
-export default () => {
+const Header = () => {
   const lastName = 'Fett';
   const firstName = 'Felipe';
   const stack = '{ Full Stack Developer }';
@@ -45,3 +45,5 @@ export default () => {
     </div>
   );
 };
+
+export default Header

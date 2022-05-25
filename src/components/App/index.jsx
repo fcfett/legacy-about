@@ -8,7 +8,7 @@ import Hobbies from '../../pages/Hobbies';
 import Social from '../../pages/Social';
 import SvgDefs from '../SvgDefs';
 
-export default () => {
+const App = () => {
   return (
     <div id="app">
       <SvgDefs />
@@ -22,3 +22,6 @@ export default () => {
     </div>
   );
 };
+
+
+export default App

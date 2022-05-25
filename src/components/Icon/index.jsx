@@ -7,7 +7,7 @@ const getPropsValues = (props) => {
   return { name, height, width };
 };
 
-export default (props) => {
+const Icon = (props) => {
   const { name, height, width } = getPropsValues(props);
   return (
     name && (
@@ -17,3 +17,5 @@ export default (props) => {
     )
   );
 };
+
+export default Icon

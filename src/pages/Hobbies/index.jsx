@@ -14,7 +14,7 @@ const INITIAL_STATE = {
   content: null,
 };
 
-export default () => {
+const Hobbies = () => {
   const [state, setState] = useState(INITIAL_STATE);
   const updateState = (payload) => setState((state) => ({ ...state, ...payload }));
   const closeModal = () => updateState(INITIAL_STATE);
@@ -54,3 +54,5 @@ export default () => {
     </div>
   );
 };
+
+export default Hobbies

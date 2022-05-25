@@ -10,7 +10,7 @@ import grupols from '../../assets/images/grupols.jpg';
 import vg8 from '../../assets/images/vg8.jpg';
 import adp from '../../assets/images/adp.jpg';
 
-export default () => (
+const Experience = () => (
   <div id="page-3" className="page">
     <h1>Experience</h1>
     <ul className="timeline">
@@ -59,3 +59,5 @@ export default () => (
     </ul>
   </div>
 );
+
+export default Experience

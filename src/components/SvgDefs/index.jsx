@@ -6,7 +6,7 @@ import { ReactComponent as Linkedin } from '../../assets/icons/linkedin.svg';
 import { ReactComponent as Codepen } from '../../assets/icons/codepen.svg';
 import { ReactComponent as Github } from '../../assets/icons/github.svg';
 
-export default (props) => (
+const SvgDefs = (props) => (
   <svg id="svg-defs">
     <symbol id="svg-icon-angle-down">
       <AngleDown />
@@ -28,3 +28,5 @@ export default (props) => (
     </symbol>
   </svg>
 );
+
+export default SvgDefs

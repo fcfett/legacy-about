@@ -5,7 +5,7 @@ import cap from '../../assets/images/cap.png';
 import fett from '../../assets/images/fett.png';
 import glasses from '../../assets/images/glasses.png';
 
-export default () => (
+const Quote = () => (
   <div id="page-4" className="page font-serif">
     <article>
       <q>
@@ -24,3 +24,5 @@ export default () => (
     </aside>
   </div>
 );
+
+export default Quote

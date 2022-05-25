@@ -3,7 +3,7 @@ import './style.scss';
 
 import Icon from '../../components/Icon';
 
-export default () => {
+const Social = () => {
   const size = 120;
   return (
     <div id="social" className="page font-serif">
@@ -43,3 +43,5 @@ export default () => {
     </div>
   );
 };
+
+export default Social
