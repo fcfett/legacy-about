@@ -14,9 +14,12 @@
   h1,
   h2 {
     margin: 0;
-    width: 920px;
     max-width: 100%;
     font-weight: unset;
+  }
+
+  h1 {
+    width: 920px;
   }
 
   h2 {

@@ -4,7 +4,7 @@ import PageSlider from '../PageSlider';
 import Header from '../../pages/Header';
 import Experience from '../../pages/Experience';
 import Quote from '../../pages/Quote';
-import Hobbies from '../../pages/Hobbies';
+import Passions from '../../pages/Passions';
 import Social from '../../pages/Social';
 import SvgDefs from '../SvgDefs';
 
@@ -16,12 +16,11 @@ const App = () => {
         <Header />
         <Experience />
         <Quote />
-        <Hobbies />
+        <Passions />
         <Social />
       </PageSlider>
     </div>
   );
 };
 
-
-export default App
+export default App;
