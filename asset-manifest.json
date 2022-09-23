@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.b6535c27.css",
-    "main.js": "/about/static/js/main.96fe2813.js",
+    "main.css": "/about/static/css/main.898dd08b.css",
+    "main.js": "/about/static/js/main.9ebb0091.js",
     "static/media/mindblow.gif": "/about/static/media/mindblow.96d1277f7b12c644cc50.gif",
     "static/media/santana.gif": "/about/static/media/santana.e86528f201a0e0207da6.gif",
     "static/media/magic.gif": "/about/static/media/magic.3c9fd486251188af1b1c.gif",
@@ -37,11 +37,11 @@
     "static/media/linkedin.svg": "/about/static/media/linkedin.868f706f6f5d86a6d07d2234771bc264.svg",
     "static/media/facebook.svg": "/about/static/media/facebook.cf8184ff72bb3558f6f86f137e2254af.svg",
     "static/media/angle-down.svg": "/about/static/media/angle-down.004caffa1e02d2234321411071452624.svg",
-    "main.b6535c27.css.map": "/about/static/css/main.b6535c27.css.map",
-    "main.96fe2813.js.map": "/about/static/js/main.96fe2813.js.map"
+    "main.898dd08b.css.map": "/about/static/css/main.898dd08b.css.map",
+    "main.9ebb0091.js.map": "/about/static/js/main.9ebb0091.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6535c27.css",
-    "static/js/main.96fe2813.js"
+    "static/css/main.898dd08b.css",
+    "static/js/main.9ebb0091.js"
   ]
 }
