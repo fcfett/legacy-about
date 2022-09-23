@@ -29,9 +29,12 @@ const Header = () => {
           <strong id="last-name">{textToCharSpan(lastName)}</strong>
         </label>
       </h1>
-      <h2 id="stack" title={stack}>
-        {textToCharSpan(stack)}
-      </h2>
+      <section>
+        <h2 id="stack" title={stack}>
+          {textToCharSpan(stack)}
+        </h2>
+        <h3 id="specialist">&amp; Front-end Specialist</h3>
+      </section>
       <FramedImage
         className="left"
         src="https://raw.githubusercontent.com/fcfett/resources/master/profile.jpg"

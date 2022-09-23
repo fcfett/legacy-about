@@ -14,6 +14,10 @@ code {
   box-sizing: border-box;
 }
 
+section {
+  position: relative;
+}
+
 #svg-defs {
   height: 0;
   position: absolute;
@@ -33,10 +37,20 @@ code {
       font-weight: 700;
     }
   }
+  &-cursive {
+    font-family: 'Caveat', cursive;
+    strong {
+      font-weight: 700;
+    }
+  }
 }
 
 h1 {
   @extend .font-serif;
+}
+
+h3 {
+  @extend .font-cursive;
 }
 
 ul {
