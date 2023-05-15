@@ -85,7 +85,7 @@ const PageSlider = ({ title, children }) => {
       <footer className="current-page font-serif">
         {title ? <strong>{title}</strong> : null}
         <div>
-          <span>{state.current + 1}</span>/<strong>{arrChildren.length}</strong>
+          <strong>{state.current + 1}</strong>/<span>{arrChildren.length}</span>
         </div>
       </footer>
       <ArrowButton className="prev" title="Previous Slide" isVisible={showPrevArrow} onClick={() => handlePrevClick()} />
@@ -94,4 +94,4 @@ const PageSlider = ({ title, children }) => {
   );
 };
 
-export default PageSlider
+export default PageSlider;

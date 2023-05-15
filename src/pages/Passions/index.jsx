@@ -24,7 +24,7 @@ const Hobbies = () => {
   return (
     <div id="page-6" className={`page ${showModal ? 'blur' : ''}`}>
       <h1>Passions</h1>
-      <ul>
+      <ul className="font-serif">
         <li>
           <button onClick={() => openModal(music)}>
             Music&nbsp;

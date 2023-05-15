@@ -33,7 +33,7 @@ const Header = () => {
         <h2 id="stack" title={stack}>
           {textToCharSpan(stack)}
         </h2>
-        <h3 id="specialist">&amp; Front-end Specialist</h3>
+        <h3 id="specialist">&amp; Frontend Specialist</h3>
       </section>
       <FramedImage
         className="left"

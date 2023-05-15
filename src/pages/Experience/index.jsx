@@ -18,51 +18,51 @@ const Experience = () => (
       <li>
         <a href="https://www.linkedin.com/company/ntconsult" target="_blank" rel="noopener noreferrer">
           <FramedImage title="NTConsult" src={ntconsult} />
-          <strong>NTConsult</strong>
-          <small>2011/05</small>
+          <strong className="font-serif">NTConsult</strong>
         </a>
+        <small>2011/05</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/stefanini-brasil" target="_blank" rel="noopener noreferrer">
           <FramedImage title="Stefanini/Dell" src={stefanini} />
-          <strong>Stefanini / Dell</strong>
-          <small>2015/09</small>
+          <strong className="font-serif">Stefanini / Dell</strong>
         </a>
+        <small>2015/09</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/grupols/" target="_blank" rel="noopener noreferrer">
           <FramedImage title="Liberta Investimentos" src={grupols} />
-          <strong>Grupo L&S / Liberta Investimentos</strong>
-          <small>2017/06</small>
+          <strong className="font-serif">Grupo L&S / Liberta Investimentos</strong>
         </a>
+        <small>2017/06</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/vg8/" target="_blank" rel="noopener noreferrer">
           <FramedImage title="VG8" src={vg8} />
-          <strong>VG8</strong>
-          <small>2019/05</small>
+          <strong className="font-serif">VG8</strong>
         </a>
+        <small>2019/05</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/adpbrazillabs/" target="_blank" rel="noopener noreferrer">
           <FramedImage title="ADP" src={adp} />
-          <strong>ADP Brazil Labs</strong>
-          <small>2020/03</small>
+          <strong className="font-serif">ADP Brazil Labs</strong>
         </a>
+        <small>2020/03</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/hypeflame/" target="_blank" rel="noopener noreferrer">
           <FramedImage title="HypeFlame" src={hypeflame} />
-          <strong>HypeFlame</strong>
-          <small>2021/01</small>
+          <strong className="font-serif">HypeFlame</strong>
         </a>
+        <small>2021/01</small>
       </li>
       <li>
         <a href="https://www.linkedin.com/company/legends-of-learning" target="_blank" rel="noopener noreferrer">
           <FramedImage title="Legends Of Learning" src={lol} />
-          <strong>Legends Of Learning</strong>
-          <small>2022/01</small>
+          <strong className="font-serif">Legends Of Learning</strong>
         </a>
+        <small>2022/01</small>
       </li>
     </ul>
   </div>

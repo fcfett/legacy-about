@@ -16,7 +16,7 @@ const Quote = () => (
       <q>
         Seniority, above all, is a matter of posture.
         <br />
-        It's useless to have a fancy résumé if, when everything is falling apart, you can't handle your mess.
+        It's useless to have a fancy resume if, when everything is falling apart, you can't handle your mess.
       </q>
       <strong>Felipe Fett</strong>
     </article>

@@ -18,17 +18,21 @@
       width: 30vmin;
 
       figure {
-        margin: auto;
+        margin: 0 auto 10px;
       }
 
       strong {
         display: block;
         font-size: 18px;
-        margin: 10px 0;
+        font-size: 700;
 
         @media (max-width: 1024px) {
           display: none;
         }
+      }
+
+      small {
+        font-weight: 400;
       }
     }
   }
